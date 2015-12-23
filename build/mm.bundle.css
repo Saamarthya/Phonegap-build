@@ -7954,6 +7954,9 @@ img.mm-media-adapt-width {
   /* show the checkmark icon when its checked */
   visibility: visible; }
 
+.item.item-button-right .badge.mm-course-download, .item.item-button-right .mma-messages-date span.mm-course-download, .mma-messages-date .item.item-button-right span.mm-course-download, .item.item-button-right .mma-chat-notice span.mm-course-download, .mma-chat-notice .item.item-button-right span.mm-course-download {
+  right: 44px; }
+
 #mm-settings-languagelabel {
   color: #000; }
 

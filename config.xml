@@ -2,13 +2,13 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.saamarthya.ved"
-        versionCode = "2006"
-        version   = "2.5">
+        id        = "com.saam.arth"
+        versionCode = "2007"
+        version   = "2.6">
     <name>Saamarthya Mobile</name>
 
     <description>
-        Saamarthya's app and Offline mode
+        Mobile and Offline app
     </description>
 
     <author href="http://moodle.com" email="mobile@moodle.com">
@@ -16,7 +16,7 @@
     </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
-        <string>2.5</string>
+        <string>2.6</string>
     </gap:config-file>
 
     <gap:platform name="ios" />
@@ -46,6 +46,7 @@
     <preference name="UIWebViewBounce" value="false" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="BackupWebStorage" value="none" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="false" />
 
     <feature name="StatusBar">
         <param name="ios-package" value="CDVStatusBar" onload="true"/>
